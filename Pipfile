@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pep8 = "*"
+
+[packages]
+more-itertools = "*"
+requests = "*"
+flask = "*"
+werkzeug = "*"
+flask-login = "*"
+flask-sqlalchemy = "*"
+
+[requires]
+python_version = "3.7"
